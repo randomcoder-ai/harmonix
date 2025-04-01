@@ -40,8 +40,8 @@ export const createSong = async(req,res,next) =>{
         await song.save();
 
         if(albumId){
-            await Album.findbyIdAndUpdate(albumId, {
-                $push: {songs: songs._id},
+            await Album.findByIdAndUpdate(albumId, {
+                $push: {songs: song._id},
             });
         }
         res.status(201).json(song)
