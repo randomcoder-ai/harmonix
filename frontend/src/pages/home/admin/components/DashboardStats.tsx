@@ -11,8 +11,8 @@ const DashboardStats = () => {
 			icon: ListMusic,
 			label: "Total Songs",
 			value: stats.totalSongs.toString(),
-			bgColor: "bg-emerald-500/10",
-			iconColor: "text-emerald-500",
+			bgColor: "bg-violet-500/10",
+			iconColor: "text-violet-500",
 		},
 		{
 			icon: Library,

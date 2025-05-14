@@ -46,7 +46,7 @@ const FriendsActivity = () => {
                         <div className="flex-1 min-w-0">
                             <div className="flex items-center gap-2">
                                 <span className="font-medium text-sm text-white">{user.fullName}</span>
-                                {isPlaying && <Music className="size-3.5 text-emerald-400 shrink-0" />}
+                                {isPlaying && <Music className="size-3.5 text-violet-400 shrink-0" />}
                             </div>
 
                             {isPlaying ? (
@@ -77,7 +77,7 @@ const LoginPrompt = () => (
 	<div className='h-full flex flex-col items-center justify-center p-6 text-center space-y-4'>
 		<div className='relative'>
 			<div
-				className='absolute -inset-1 bg-gradient-to-r from-emerald-500 to-sky-500 rounded-full blur-lg
+				className='absolute -inset-1 bg-gradient-to-r from-violet-500 to-sky-500 rounded-full blur-lg
        opacity-75 animate-pulse'
 				aria-hidden='true'
 			/>
