@@ -84,6 +84,7 @@ export const useChatStore = create<ChatStore>((set, get) => ({
 			});
 
 			socket.on("receive_message", (message: Message) => {
+
 				set((state) => ({
 					messages: [...state.messages, message],
 				}));

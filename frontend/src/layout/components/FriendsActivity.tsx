@@ -82,7 +82,7 @@ const LoginPrompt = () => (
 				aria-hidden='true'
 			/>
 			<div className='relative bg-zinc-900 rounded-full p-4'>
-				<HeadphonesIcon className='size-8 text-emerald-400' />
+				<HeadphonesIcon className='size-8 text-violet-400' />
 			</div>
 		</div>
 

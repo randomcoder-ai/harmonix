@@ -47,7 +47,10 @@ export const initializeSocket = (server) => {
 					io.to(receiverSocketId).emit("receive_message", message);
 				}
 
+				console.log(new Date().getTime());
 				socket.emit("message_sent", message);
+				
+
 			} catch (error) {
 				console.error("Message error:", error);
 				socket.emit("message_error", error.message);

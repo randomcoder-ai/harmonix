@@ -44,7 +44,7 @@ const HomePage = () => {
 
         <div className="space-y-8">
           <SectionGrid title="Made for you" songs={madeForYouSongs} isLoading={isLoading} />
-          <SectionGrid title="Trending" songs={trendingSongs} isLoading={isLoading} />
+          <SectionGrid title="Shuffled" songs={trendingSongs} isLoading={isLoading} />
         </div>
         </div>
       </ScrollArea>  
